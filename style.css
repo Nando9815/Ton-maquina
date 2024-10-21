@@ -1,0 +1,171 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+@font-face {
+    
+    font-family: 'Shifty';
+    src: url('Fonts/ShiftyNotesRegular-BWZ6d.ttf') format('opentype');
+    font-weight: normal;
+}
+@font-face {
+    
+    font-family: 'Inter';
+    src: url('Fonts/iner/Inter-VariableFont_opsz\,wght.ttf') format('opentype');
+    font-weight: normal;
+}
+body{font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
+font-size: 22px;
+}
+.conteiner{width: 100%;
+height: auto;
+display: inline-block;
+padding: auto;
+margin-top: 50px;
+}
+
+
+header{display: flex;
+     background-color: #36E61A;
+     margin-bottom: -20px;
+     margin-top: -25px;
+     
+}   
+header picture.logo-ton{width: 100%;
+    padding-top: 15px;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+   
+}   
+
+ header picture.zap{ 
+    padding-top: 100px;
+
+ } 
+header picture.logo-karine{width: 100%;
+    padding-left: 300px;
+    max-width: 350px;
+    min-width: 100px;   
+    display: block;
+    margin: auto;
+    padding-left: 60px;
+}
+nav{  background-color: white;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 1500px;
+margin-bottom: 30px;
+    text-align: center;
+    
+   
+}
+nav a { color: rgb(0, 0, 0);
+    display: inline-flex;
+padding: 100%;
+    max-width: 600px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+    margin-left: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 110px 10px 110px;
+    margin-top: -15px;
+    
+    
+    
+}
+nav > a:hover{background-color: #4db964a9;
+color: white;
+}
+
+.quadrado{
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    height: 300px;
+    width: 200px;
+    
+
+    
+}
+    
+div#q1{
+    font-family: 'Inter', Courier, monospace;
+    width: 20%;
+    margin-bottom: 300px;
+    margin-top: 200px;
+    
+}
+
+div#q1>img{max-width: 100%;
+border: none;
+}
+
+div#q2{
+    font-family: 'Inter', Courier, monospace;
+    width: 20%;
+    margin-bottom: 300px;
+    margin-top: 200px;
+    
+}
+div#q2>img {max-width: 100%;
+           border: none;
+}
+
+div#q3 {font-family: 'Inter', Courier, monospace;
+    width: 20%;
+    margin-bottom: 300px;
+    margin-top: 200px;
+    
+    
+} 
+
+div#q3>img{max-width: 100%;
+        
+}
+div#q4{
+    font-family: 'Inter', Courier, monospace;
+    width: 20%;
+    margin-bottom: 300px;
+    margin-top: 200px;
+}
+
+div#q4>img{max-width: 100%;
+       
+}
+.nome-maquina{
+    font-family:'Inter', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.botão{
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #36E61A;
+    border: none;
+    font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding: auto;
+}
+
+button:hover{background-color: #2eca16;
+cursor: pointer;
+
+}
+
+.preço{font-size: 25px;
+    font-family:'Inter', Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+font-size: 2rem;}
+@media screen and (max-width: 768px) {.quadrado {width: 30%;}
+    
+}
+.dcc{display: inline-block;
+font-size: 3rem;
+}
